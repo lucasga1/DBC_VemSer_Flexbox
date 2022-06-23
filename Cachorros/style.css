@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+nav {
+    margin: auto 0;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* Galeria */
+h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.galeria {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    max-width: 1320px;
+    margin: auto;
+}
+
+img {
+    width: 100%;
+}
+
+.bloco-img {
+    width: 400px;
+    padding: 15px;
+}
+
+.galeria p {
+    text-align: center;
+    font-size: 18px;
+}

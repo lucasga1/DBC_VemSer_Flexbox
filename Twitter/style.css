@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Barlow', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+nav {
+    margin: auto 0;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+nav ul li {
+    display: inline;
+}
+
+/* Main */
+main h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+main p {
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.bloco {
+    background-color: #666;
+    width: 350px;
+    height: 190px;    
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.bloco1 {
+    background-color: #666;
+    width: 350px;
+    height: 420px;
+    margin: 15px 30px 5px 0; 
+}
+
+.content p{
+    background-color: black;
+    color: white;
+    width: 340px;    
+    padding: 10px 0 10px 10px;
+    position: absolute;
+    top: 532px;
+}
+.descricao1 {
+    background-color: black;
+    color: white;
+    width: 340px;    
+    padding: 10px 0 10px 10px;
+    position: absolute;
+    top: 310px;
+}
+.descricao2 {
+    background-color: black;
+    color: white;
+    width: 340px;    
+    padding: 10px 0 10px 10px;
+    position: absolute;
+    top: 532px;
+}
